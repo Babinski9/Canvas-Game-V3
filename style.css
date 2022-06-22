@@ -1,0 +1,130 @@
+#gameContainer1 {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background: rgb(92,196,87);
+    background: radial-gradient(circle, rgba(92,196,87,1) 0%, rgba(105,226,108,1) 32%, rgba(93,235,79,1) 67%, rgba(122,171,96,1) 100%);
+    border: 0px solid black;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+}
+
+#gameContainer2 {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background: rgb(87,164,196);
+    background: radial-gradient(circle, rgba(87,164,196,1) 0%, rgba(105,148,226,1) 32%, rgba(79,103,235,1) 67%, rgba(117,96,171,1) 100%);
+    border: 0px solid black;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+}
+
+
+
+#table1 {
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
+    padding: 0px;
+    margin-top: 0px; 
+    margin-bottom: 5px;
+    background-color: khaki;
+    border: 3px solid black;
+}
+
+#table2 {
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
+    padding: 0px;
+    margin-top: 0px; 
+    margin-bottom: 5px;
+    background-color: khaki;
+    border: 3px solid black;
+}
+
+.BJScoreHost{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    border: 3px solid black;
+    text-shadow: black;
+    display: block;
+    background: rgb(215,47,47);
+    text-align: top;
+    position: relative;
+    padding: 5px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.BJScorePlayer{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    border: 3px solid #000000;
+    display: block;
+    background: rgb(123, 191, 255);
+    color: rgb(0, 0, 0);
+    text-align: top;
+    position: relative;
+    padding: 5px;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+
+
+.scoreboard-container {
+  position: relative;
+  height: 100%;
+  margin: 0px;
+}
+
+
+#hitButton {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    width: 200px;
+    position: relative;
+    background-color: #b82b18;
+    border-color: black;
+    border-style: 5px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 200%;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#stayButton {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    width: 200px;
+    position: relative;
+    background-color: #5be749;
+    border-color: black;
+    border-style: 5px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 200%;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 12px;
+}
